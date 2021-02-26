@@ -1,0 +1,18 @@
+html body {
+    margin: 0%;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+/* === css variable === */
+
+:root {
+    --theme-color: #cce0b0;
+    --primary-color: rgb(242 213 9);
+    --colorall: black;
+    --main-font: 'Roboto', cursive;
+    --heading-hover: #c4dda2;
+    --active: blue;
+    --about: rgb(90, 1, 84);
+}

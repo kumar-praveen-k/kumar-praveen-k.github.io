@@ -1,0 +1,40 @@
+.job {
+    font-family: var(--main-font);
+}
+.button, .btn-primary {
+  padding: .3rem .6rem;
+  margin-right: 1rem;
+  border-radius: .4rem;
+  border: 2px solid transparent;
+  font-family:sans-serif;
+}
+.btn-primary:hover {
+    color: black;
+    background-color: white;
+    border-color: black;
+    border: 1px solid black;
+    padding: .2rem .5rem;
+    margin-right: 1.33rem;
+}
+.tag-heading {
+    font-family: 'Merriweather', serif;
+    color: red;
+    background-color: rosybrown;
+    border-radius: 1rem;
+    width: 25rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.content {
+    background-color: rgb(245, 223, 223);
+    margin: 2rem 0rem;
+    color: black;
+    font-family: 'Akaya Kanadaka', cursive;
+    font: bold;
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    justify-content: center;
+    border: 2px double red;
+    opacity: .8;
+}

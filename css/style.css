@@ -1,0 +1,108 @@
+
+@import url(./css/fonts);
+
+@import url(./partials/_globel.css);
+body {
+    /* background-image: url(../img/background.jpg); */
+    background: black;
+    backdrop-filter: brightness(80%);;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* === css for header Start === */
+.header {
+    /* margin-top: .5rem; */
+}
+.header .main-menu .navbar .container-fluid .navbar-brand {
+    padding: 0rem 1rem 0rem 1rem;
+    margin: .5rem 0rem .5rem 0rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin-right: .5rem;
+    margin-left: 1.5rem;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    color: var(--colorall);
+ 
+}
+.header .main-menu .navbar .container-fluid .collape :active {
+    color: var(--active);
+}
+.bg-light {
+    background-color: var(--theme-color)!important;
+    border-radius: 1rem;
+}
+.navbar img {
+    background-color: var(--primary-color);
+    border-radius: 1.5rem;
+    height: 60px;
+    width: 60px;
+}
+.Journey-area {
+    background-image: url(../img/journey-Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: white;
+}
+/* === css for header end === */
+/* === css for main start === */
+.main-area .postheader {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.main-area .postheader .container .row .name {
+    padding: 8rem 8rem 0rem 0rem;
+}
+.main-area .postheader .container .part img {
+    border-radius: 0.44em;
+    height: 300px;
+    width: 300px;
+    margin: 5rem 0rem 0rem 5rem;
+    border: .5rem solid rgb(50, 163, 228)
+}
+.main-area .postheader .container .name {
+    margin-top: 4rem;
+}
+.main-area .Journey-area .container-fluid img {
+    width: 90%;
+    height: 90%;
+    margin: 2rem;
+    border: 3px solid #222e35;
+}
+.main-area .Journey-area .row {
+    margin-top: 0rem;
+}
+.my-skill {
+    background-image: url(../img/skills-background.png);
+    background-size: cover;
+}
+.main-area .Journey-area .row .content {
+    background-color: rgb(245, 223, 223);
+    margin: 2rem 0rem;
+    color: black;
+    font-family: 'Akaya Kanadaka', cursive;
+    font: bold;
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    justify-content: center;
+    border: 2px double red;
+}
+.my-skill .container-fluid .table {
+    border-radius: 1rem;
+}
+.my-positions .tag  .content {
+    width: 500rem;
+}
+.my-positions .container-fluid .positions {
+    border: 2px solid black;
+    color: black;
+}
+.my-positions {
+    background-image: url(../img/positions-background.png);
+    background-size: cover;
+}
+/* === css for main End === */

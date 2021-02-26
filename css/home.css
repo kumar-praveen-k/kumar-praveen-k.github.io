@@ -1,0 +1,35 @@
+body {
+    background-image: url(../img/home-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+}
+.my-home {
+}
+.row {
+  
+    margin: 1rem;
+}
+.container {
+    margin: auto;
+}
+.my-tab {
+    border: 3px solid black;
+    width: fit-content;
+    background-color: burlywood;
+    border-radius: 2rem;
+    margin: auto;
+    margin-top: 5rem;
+}
+input{
+    border-radius: .5rem;
+    text-align: center;
+}
+.my-id {
+    color: yellow;
+    background-color: rgb(255, 0, 200);
+}
+#submit:hover {
+background-color: rgb(212, 207, 207);
+}
