@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Project NO: 4 - Calculator</h1>
+    <div class="container">
+       <div class="output" id="output">
+           <div previous-part class="previous-part" id="prev"></div>
+           <div current-part class="current-part" id="curr"></div>
+       </div>
+        <div class="output-part">
+            <button onclick="handleButtonClick('AC')" delete-all><div class="box delete-all"> AC</div></button>
+            <button onclick="handleButtonClick('C')" delete><div class="box delete"> C</div></button>
+            <button onclick="handleButtonClick('%')" operator><div class="box box-3"> %</div></button>
+            <button onclick="handleButtonClick('/')" operator><div class="box box-4"> /</div></button>
+            <button onclick="handleButtonClick('7')" data><div class="box data"> 7</div></button>
+            <button onclick="handleButtonClick('8')" data><div class="box data"> 8</div></button>
+            <button onclick="handleButtonClick('9')" data><div class="box data"> 9</div></button>
+            <button onclick="handleButtonClick('*')" operator><div class="box box-8"> *</div></button>
+            <button onclick="handleButtonClick('4')" data><div class="box data"> 4</div></button>
+            <button onclick="handleButtonClick('5')" data><div class="box data"> 5</div></button>
+            <button onclick="handleButtonClick('6')" data><div class="box data"> 6</div></button>
+            <button onclick="handleButtonClick('-')" operator><div class="box box-12"> -</div></button>
+            <button onclick="handleButtonClick('1')" data><div class="box data"> 1</div></button>
+            <button onclick="handleButtonClick('2')" data><div class="box data"> 2</div></button>
+            <button onclick="handleButtonClick('3')" data><div class="box data"> 3</div></button>
+            <button onclick="handleButtonClick('+')" operator><div class="box box-16"> +</div></button>
+            <button onclick="handleButtonClick('0')" data class="btn"><div class="box data"> 0</div></button>
+            <button onclick="handleButtonClick('.')" data><div class="box data"> .</div></button>
+            <button onclick="handleButtonClick('=')" equals><div class="box equals"> =</div></button>
+        </div>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

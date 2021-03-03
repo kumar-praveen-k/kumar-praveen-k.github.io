@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count-Down</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./count.css">
+</head>
+<body>
+    <h1>Project - 4: Count-Down</h1>
+    <h3 id="enter-alert" class="animated"> Please Enter time For Count-down :</h3>
+    <form action="">
+        <div class="form">
+            <div class="days time">
+                <label for="">Enter Days :</label>
+                <input class="input" id="days" type="number" placeholder="&lt = 29" required>
+            </div>
+            <div class="hours time">
+                <label for="">Enter Hours :</label>
+                <input class="input" id="hours" type="number" placeholder="&lt = 23" required>
+            </div>
+            <div class="minutes time">
+                <label for="">Enter Minutes :</label>
+                <input class="input" id="minutes" type="number" placeholder="&lt = 59" required>
+            </div>
+            <div class="seconds time">
+                <label for="">Enter Seconds :</label>
+                <input class="input" id="seconds" type="number" placeholder="&lt = 59" required>  
+            </div>
+        </div>
+    </form>
+    <button id ="operation" type="submit" onclick="validation()">Start</button>
+    <h2 id="celebration">Celebration Starts in :</h2>
+    <div class="container">
+        <div class="days-count count">
+            <div id="days-c">00</div>
+            <span>Days</span>
+        </div> 
+        <div class="hours-count count">
+        <div id="hours-c">00</div>
+        <span>Hours</span>
+    </div> 
+    <div class="minutes-count count">
+        <div id="minutes-c">00</div>
+        <span>Minutes</span>
+    </div> 
+    <div class="secs-count count">
+        <div id="secs-c">00</div>
+        <span>Seconds</span>
+    </div> 
+    </div>
+    <canvas id="my-canvas"></canvas>
+    <script src="./count.js"></script>
+    <script src="./celebration.js"></script>
+</body>
+</html>
