@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do App</title>
+    <!-- === bootstrap css is here === -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- === awesome icons are here === -->
+    <link rel="stylesheet" href="../css/all.min.css">
+
+    <!-- === extra css is here === -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main-area container">
+        <div class="heading-part">
+            <h1 id="heading">Project no. 6 : To-Do App with bootstrap</h1> 
+        </div>  
+        <div class="input-group mb-3">
+            <input type="text" id="nexttask" class="form-control" placeholder="Next Task here" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" onclick="addtask()" type="button" id="button-addon2">Add Task</button>
+        </div>
+
+        <div class="list-area">
+            <ul class="list-group list-group-flush" id="tasklist">
+        </div>
+    </div>
+
+    <!-- /////////////// -->
+    <!-- === bootstrap js is here === -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- === extra js is here === -->
+    <script src="./index.js"></script>
+</body>
+</html>

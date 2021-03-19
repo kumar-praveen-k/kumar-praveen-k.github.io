@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+       <!-- === botstrap css here === -->
+       <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+       <!-- === awesome style are here === -->
+       <link rel="stylesheet" href="../css/all.min.css">
+   
+       <!-- === external styles here === -->
+       <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="result-page box">
+        <h1 id="rightanswers">Assessment Result</h1>
+        <table class="table table-dark table-striped">
+            <tr>
+                <th >Total Questions :</th>
+                <td class="leftalign">10</td>
+            </tr>
+            <tr>
+                <th >Successful Answers :</th>
+                <td class="leftalign results" > <div >8</div></td>
+            </tr>
+            <tr>
+                <th > Score :</th>
+                <td class="leftalign results"> <div id="score">32</div></td>
+            </tr>
+            <tr>
+                <th >Performance :</th>
+                <td class="leftalign results"><div id="grad">40%</div></td>
+            </tr>
+            <tr>
+                <th > Category :</th>
+                <td class="leftalign results" id="catagory"><div class="category">pass</div></td>
+            </tr>
+          </table>
+          <div class="row">
+              <div class="col-1 offset-1 indicator">1</div>
+              <div class="col-1 indicator">2</div>
+              <div class="col-1 indicator">3</div>
+              <div class="col-1 indicator">4</div>
+              <div class="col-1 indicator">5</div>
+              <div class="col-1 indicator">6</div>
+              <div class="col-1 indicator">7</div>
+              <div class="col-1 indicator">8</div>
+              <div class="col-1 indicator">9</div>
+              <div class="col-1 indicator">10</div>
+          </div>
+          <div class="row last-direction">
+              <div class="col-6"><button type="button" class="btn btn-primary next"><a href="./index.html">Home</a></button></div>
+              <div class="col-6"><button type="button" class="btn btn-primary next"><a href="./questionpage.html" onclick="settimer()">Try Again</a></button></div>
+          </div>
+</div>
+ <!-- === questions are here === -->
+ <script src="./Question.js"></script>
+
+ <!-- === external js here === -->
+ <script src="./script.js"></script>
+
+</body>
+</html>

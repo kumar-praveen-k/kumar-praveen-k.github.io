@@ -5,27 +5,27 @@ body {
 .my-cv {
     border: 2px solid black;
 }
-.col-4 {
+.sidebar {
     background-color: rgb(76, 76, 235);
     color: white;
 }
-.col-8 {
+.mainbar {
     background-color: whitesmoke;
 }
 .row {
     margin: 3px 0px;
 }
-.my-cv .col-4 .side-1 img{
+.my-cv .sidebar .side-1 img{
     width: 12.3rem;
     height: 11rem;
     border-radius: 50%;
     margin: auto;
     margin-bottom: 1rem;
 }
-.my-cv .col-8 .row-1 h1{
+.my-cv .mainbar .row-1 h1{
     font-size: 82px;
 }
-.my-cv .col-8 .row-1 {
+.my-cv .mainbar .row-1 {
     margin-bottom: 3rem;
 }
 .linked a, .git a {
@@ -41,10 +41,37 @@ h3 {
 li {
     margin-left: 2rem;
 }
-.col-8 h3 {
+.mainbar h3 {
     color: rgb(39, 39, 247);
 }
 .small-logo {
     height: 1rem;
     width: 1rem;
 }
+.setwidth {
+    width: fit-content;
+}
+@media screen and (max-width: 480px) {
+    #my_name {
+     position: absolute;
+     visibility: hidden;
+    }
+   
+  }
+  @media screen and (min-width: 480px) {
+    .hidden_name {
+        position: absolute;
+        visibility: hidden;
+    }
+  }
+  .hidden_name {
+      margin: auto;
+      text-align: center;
+      font-size: 2rem;
+      /* position: absolute;
+     visibility: hidden; */
+  }
+  .HIDDEN_TAGS {
+      margin: 1rem auto;
+      color: black;
+  }

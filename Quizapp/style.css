@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(192, 209, 240);
+}
+.box{
+    max-width: 900px;
+    /* background-color: rgba(189, 137, 128, 0.5); */
+    margin: auto;
+    margin-bottom: 4rem;
+}
+.project-call{
+    color: rgba(2, 36, 36, 0.781);
+    text-decoration: underline;
+}
+.home {
+    background-color: rgb(192, 209, 240);
+    text-align: center;
+}
+table {
+    border-radius: .5rem;
+}
+.icon {
+    margin-left: 1rem;
+}
+
+.leftalign {
+    text-align: left;
+    margin-left: .3rem;
+}
+
+.rightalign {
+    text-align: right;
+    margin-right: 1rem;
+}
+
+.start {
+    margin: 2rem;
+}
+
+.home-page {
+    /* visibility: hidden; */
+}
+
+
+input {
+    margin-left: .5rem;
+}
+.qn-number {
+    border-bottom: 3px solid black;
+}
+.question {
+    margin: 1.5rem 0rem 1rem;
+}
+.next {
+    padding: .4rem 2rem;
+}
+.last-direction {
+    margin-top: 3rem;
+}
+ul {
+    padding-left: 0;
+}
+.indicator {
+    color: white;
+    border: 2px solid black;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: green;
+}
+li {
+    font-size: 20px;
+    list-style: none;
+    background-color:rgb(240, 237, 197);
+    margin: .6rem;
+    border-radius: .4rem;
+    line-height: 2.5rem;
+}
+.option {
+    opacity: 0;
+    animation: optiondelay 1s ease-in-out forwards;
+}
+@keyframes optiondelay{
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+a {
+    text-decoration: none;
+    color: rgb(253, 252, 252);
+}
+.instruction{
+    line-height: 1.4rem;
+    padding: 1rem;
+    list-style: square;
+}
+a:hover {
+    color: black;
+}
+#timer {
+    font-size: 30px;
+    text-align: center;
+    background-color: chocolate;
+    border-radius: .5rem;
+}

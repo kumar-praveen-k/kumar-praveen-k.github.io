@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <!-- === botstrap css here === -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- === awesome style are here === -->
+    <link rel="stylesheet" href="../css/all.min.css">
+
+    <!-- === external styles here === -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="quiz-app">
+        <!-- ============= home-page Start here ============= -->
+        <div class="home-page box container">
+            <div class="row"><h1>JavaScript-Assessment</h1><hr></div>
+            <div class="row">
+                <div class="col-6 offset-6"><div class="rightalign">Instructions <a href="./instruction.html" onclick="enableStart()"><i class="fa fa-question-circle icon" id="inst" aria-hidden="true"></i></a></div></div>
+            </div>
+            <div class="row">
+                <div class="col-12 "><h3 class="leftalign">Assessment-Details :-</h3></div>
+            </div>
+            <table class="table table-dark table-borderless">
+                <tr>
+                    <th >Subject for Assessment :</th>
+                    <td class="leftalign">JavaScript</td>
+                </tr>
+                <tr>
+                    <th > Type Of Questions :</th>
+                    <td class="leftalign">Objective</td>
+                </tr>
+                <tr>
+                    <th >Number Of Questions :</th>
+                    <td class="leftalign">10</td>
+                </tr>
+                <tr>
+                    <th > Time For Assessment :</th>
+                    <td class="leftalign">5 Minutes</td>
+                </tr>
+                <tr>
+                    <th >Marks per Question :</th>
+                    <td class="leftalign">+4 </td>
+                </tr>
+              </table>
+            <button type="button" class="btn btn-primary start"><a href="./questionpage.html" onclick="settimer()">Start Assassment</a></button>
+        </div>
+    
+    </div>
+    <!-- === questions are here === -->
+    <script src="./Question.js"></script>
+
+    <!-- === external js here === -->
+    <script src="./script.js"></script>
+</body>
+</html>

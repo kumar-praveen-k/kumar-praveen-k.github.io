@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+    <!-- === bootstrap css is here === -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    
+    <!-- === awesome font are here === -->
+    <link rel="stylesheet" href="../css/all.min.css">
+
+    <!-- === TO-DO style is here === -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="row"><h1>Project 5: To-Do App</h1></div>
+        <div class="row home">
+            <div class="col-4" id="date"></div>
+            <div class="col-1 offset-6 refresh"><button onclick="clearAll()"><i class="fa fa-retweet" aria-hidden="true"></i></button></div>
+        </div>
+        <div class="container main-area">
+
+            <div class="row task" id="task-1">
+                <div class="col-2"><input type="checkbox" id="mycheck-1" onclick="taskdone('mycheck-1','text-1')"></div>
+                <div class="col-8" id="text-1"></div>
+                <div class="col-2 deleterow"><button onclick="deleterow('task-1')"><i class="fa fa-trash" aria-hidden="true"></i></button></div>
+            </div>
+
+            <div class="row task" id="task-2">
+                <div class="col-2"><input type="checkbox" id="mycheck-2" onclick="taskdone('mycheck-2','text-2')"></div>
+                <div class="col-8" id="text-2">astbagv</div>
+                <div class="col-2 deleterow"><button onclick="deleterow('task-2')"><i class="fa fa-trash" aria-hidden="true"></i></button></div>
+            </div>
+
+            <div class="row task" id="task-3">
+                <div class="col-2"><input type="checkbox" id="mycheck-3" onclick="taskdone('mycheck-3','text-3')"></div>
+                <div class="col-8" id="text-3">sdfg zdf</div>
+                <div class="col-2 deleterow"><button onclick="deleterow('task-3')"><i class="fa fa-trash" aria-hidden="true"></i></button></div>
+            </div>
+
+            <div class="row task" id="task-4">
+                <div class="col-2"><input type="checkbox" id="mycheck-4" onclick="taskdone('mycheck-4','text-4')"></div>
+                <div class="col-8" id="text-4" >dfsynts</div>
+                <div class="col-2 deleterow"><button onclick="deleterow('task-4')"><i class="fa fa-trash" aria-hidden="true"></i></button></div>
+            </div>
+
+            <div class="row task" id="task-5">
+                <div class="col-2"><input type="checkbox" id="mycheck-5" onclick="taskdone('mycheck-5','text-5')"></div>
+                <div class="col-8" id="text-5" >sdfgj</div>
+                <div class="col-2 deleterow"><button onclick="deleterow('task-5')"><i class="fa fa-trash" aria-hidden="true"></i></button></div>
+            </div>
+
+            <div class="row task" id="task-6">
+                <div class="col-2"><input type="checkbox" id="mycheck-6" onclick="taskdone('mycheck-6','text-6')"></div>
+                <div class="col-8" id="text-6">sdfhcvv</div>
+                <div class="col-2 deleterow"><button onclick="deleterow('task-6')"><i class="fa fa-trash" aria-hidden="true"></i></button></div>
+            </div>
+
+            <div class="row task" id="task-7">
+                <div class="col-2"><input type="checkbox" id="mycheck-7" onclick="taskdone('mycheck-7','text-7')"></div>
+                <div class="col-8" id="text-7">wyrardf</div>
+                <div class="col-2 deleterow"><button onclick="deleterow('task-7')"><i class="fa fa-trash" aria-hidden="true"></i></button></div>
+            </div>
+
+            <div class="row task" id="task-8">
+                <div class="col-2"><input type="checkbox" id="mycheck-8" onclick="taskdone('mycheck-8','text-8')"></div>
+                <div class="col-8" id="text-8">dhfhgvbcv</div>
+                <div class="col-2 deleterow"><button onclick="deleterow('task-8')"><i class="fa fa-trash" aria-hidden="true"></i></button></div>
+            </div>
+
+            <div class="row task" id="task-9">
+                <div class="col-2"><input type="checkbox" id="mycheck-9" onclick="taskdone('mycheck-9','text-9')"></div>
+                <div class="col-8" id="text-9">dfxjhgh</div>
+                <div class="col-2 deleterow"><button onclick="deleterow('task-9')"><i class="fa fa-trash" aria-hidden="true"></i></button></div>
+            </div>
+
+            <div class="row add">
+                <div class="col-2 plus"><button onclick = "addnext()"><i class="fa fa-plus" aria-hidden="true"></i></button></i></div>
+                <div class="col-8 input" ><input type="text" id="nexttext" value="" placeholder="Next-task here"></div>
+                <div class="col-2 delete" ><button onclick="cleartext()"><i class="fa fa-trash" aria-hidden="true"></i></button></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- === my-javaScript here === -->
+    <script src="./script.js"></script>
+</body>
+</html>

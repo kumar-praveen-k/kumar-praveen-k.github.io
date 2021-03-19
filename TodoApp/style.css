@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(236, 171, 85);
+}
+.home{
+    background-image: url(../img/todoback.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 45vh;
+    position: relative;
+    box-shadow: 0px 4px;
+}
+.refresh {
+    position: absolute;
+ bottom: 1.5rem;
+ right: 2rem;
+}
+.intro {
+    background-color: rgb(19, 128, 46);
+}
+#date{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    position: absolute;
+    bottom: 1rem !important;
+    left: 2rem;
+    bottom: 0%;
+}
+.col-2,.col-8 {
+    color: black;
+    padding:.4rem 0rem;
+    text-align: center;
+}
+.add{
+    border-radius: 1rem;
+    background-color: darkcyan;
+}
+.task {
+    background-color: rgb(202, 8, 8); 
+    border-radius: .4rem;
+    margin: .3rem;
+    
+}
+input {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+.task {
+    visibility: hidden;
+}

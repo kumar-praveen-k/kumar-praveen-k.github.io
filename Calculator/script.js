@@ -27,8 +27,10 @@ function handleButtonClick(char) {
 }
 
 function handleOperator(operator) {
-    if(operators.includes(cummulativeResult[cummulativeResult.length-1])){
-        cummulativeResult = cummulativeResult.slice(0,-1) + operator;
+    if(cummulativeResult.charAt(cummulativeResult.length - 1))
+    if(cummulativeResult.length == 0 && input.length == 0) {
+        cummulativeResult="";
+        input = operator;
     }
     else if (!cummulativeResult) {
         cummulativeResult = input + ' ' +operator
@@ -42,6 +44,7 @@ function handleOperator(operator) {
 
 function handleDigitInput(digit) {
     input += digit
+    console.log(input);
     updateScreen();
 }
 
@@ -52,7 +55,11 @@ function handleAllClear() {
 }
 
 function handleClear() {
-    input = input.slice(0, -1)
+    if(input.length == 0) {
+        cummulativeResult = cummulativeResult.slice(0, -1);
+    }else{
+        input = input.slice(0, -1)
+    }
     updateScreen();
 }
 function handleEqual(){

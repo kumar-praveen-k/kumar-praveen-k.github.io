@@ -1,0 +1,17 @@
+Body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: cadetblue;
+}
+.heading-part {
+    border-radius: 4px;
+    background-color: white;
+    text-align: center;
+    margin-top: .4rem;
+}
+.btn {
+    color: black;
+    background-color: var(--bs-blue);
+    
+}
