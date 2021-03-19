@@ -89,5 +89,4 @@ function uncheckTask (uncheck,textNumber) {
     var checkstatus = document.getElementById(uncheck)
     document.getElementById(textNumber).style.textDecoration = "none";
     checkstatus.checked = false;
-    document.getElementById(here).innerHTML ="";
 }
