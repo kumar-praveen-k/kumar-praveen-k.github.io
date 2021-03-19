@@ -27,7 +27,6 @@ function handleButtonClick(char) {
 }
 
 function handleOperator(operator) {
-    if(cummulativeResult.charAt(cummulativeResult.length - 1))
     if(cummulativeResult.length == 0 && input.length == 0) {
         cummulativeResult="";
         input = operator;
